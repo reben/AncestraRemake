@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/ancestrar/!svn/ver/54/trunk/Game/src/common
+END
+Ancestra.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/ancestrar/!svn/ver/50/trunk/Game/src/common/Ancestra.java
+END
+Commands.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/ancestrar/!svn/ver/50/trunk/Game/src/common/Commands.java
+END
+ConditionParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/ancestrar/!svn/ver/50/trunk/Game/src/common/ConditionParser.java
+END
+SocketManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/ancestrar/!svn/ver/53/trunk/Game/src/common/SocketManager.java
+END
+World.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/ancestrar/!svn/ver/50/trunk/Game/src/common/World.java
+END
+Formulas.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/ancestrar/!svn/ver/50/trunk/Game/src/common/Formulas.java
+END
+IA.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/ancestrar/!svn/ver/53/trunk/Game/src/common/IA.java
+END
+SQLManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/ancestrar/!svn/ver/54/trunk/Game/src/common/SQLManager.java
+END
+Pathfinding.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/ancestrar/!svn/ver/50/trunk/Game/src/common/Pathfinding.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/ancestrar/!svn/ver/50/trunk/Game/src/common/Constants.java
+END
+CryptManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/ancestrar/!svn/ver/48/trunk/Game/src/common/CryptManager.java
+END
