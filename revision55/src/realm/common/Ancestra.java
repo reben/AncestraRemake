@@ -256,8 +256,8 @@ public class Ancestra
 	{
 		StringBuilder mess = new StringBuilder();
 		mess.append("Ancestar-R Realm v"+REALM_VERSION);
-		mess.append("\nPar DeathDown pour Dofus "+CLIENT_VERSION);
-		mess.append("\nhttp://sourceforge.net/projects/ancestrar/\n\n");
+		mess.append("\nPar Reben pour Dofus "+CLIENT_VERSION);
+		mess.append("\nhttps://github.com/reben/AncestraRemake\n\n");
 		return mess.toString();
 	}
 }
