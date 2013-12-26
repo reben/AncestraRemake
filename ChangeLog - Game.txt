@@ -1,0 +1,170 @@
+[26/12/2013]
+- GameThread : Ajout du waitActionCell, il permet de déclencher les actions de type "panel zaap" que lorsque le joueur arrive sur la cellule.
+- GameThread : Correction d'une faille combat.
+- World/SocketManager/Personnage : Ajout de l'affichage de l'alignement des subareaData (Path rev14)
+
+- Reprise de ancestra remaque par Reben officielle
+
+[18/08/2012]
+- SQLManger/GameThread : Correction des cadeaux.
+
+[16/08/2012]
+- GameThread : Ajout du canal Incarnam (/i).
+- Fight : Débug du drop objet/kamas du coffre des énus.
+
+[10/08/2012]
+- SpellEffect : Correction de applyEffect_77 (Vol de PM).
+- SpellEffect : Morrir pendant sont tour de jeu passe automatiquement le tour.
+
+[08/08/2012]
+- Fight/Challenges : Correction d'un NullPointerException lors de l'abandon du combat.
+
+[06/08/2012]
+- IA : Ajout de l'IA du sac animé.
+- IA : Ajout de l'influence du sac animé pour lancé Sacrifice.
+- IA : Ajout de l'influence de l'arbre de vie.
+- SocketManager/Fight : Lors d'un echec conditions on est plus obligé de passé son tour.
+- Fight : Lorsqu'un combattant meurt et qu'il avait donner des buffs à des combattantants les buffs sont retiré.
+- Personnage : On peut désormais voir la couleur des ailes suivant le niveau du joueur.
+- Personnage : On peut désormais voir les ailes troués grâce au point de déshonneur.
+
+[05/08/2012]
+- Fight : Correction du calcul de la prospection pour les challenges.
+- Fight : Correction du Drop.
+
+[03/08/2012]
+- GameThread : Correction de la fermeture du panneaux d'invitation en groupe si l'invité repond Non.
+
+[02/08/2012]
+- GameThread : Il n'est plus possible de rentrer dans un combat si celui-ci a démarrer (THX xixou).
+
+[01/08/2012]
+- Objet/Pets/PetsEntry : Simplification du code, correction de divers problèmes.
+- Personnage/Fight/Carte : Le personnage ne lance plus automatiquement un combat si il apparait sur une case occupée par un groupe de monstre (Diminution des bugs).
+- Metier/Objet : Simplification du code de la forgemagie.
+
+[25/07/2012]
+- SocketManager/Action/SQL : Ajout de la cinématique d'Incarnam à Astrub (AncestraR_Game - Patch rev12 - Cinématique IA)
+
+[23/07/2012]
+- Fight/PetsEntry/Pets/GameThread : Ajout des familiers dévoreur d'âme [DeeZ].
+
+[22/07/2012]
+- [...] : Correction des bugs de connexion suite aux cadeaux [DeeZ].
+
+[21/07/2012]
+- Fight/Personnage/Formulas : Ajout du debuff des soins [DeeZ].
+
+[20/07/2012]
+- ConditionParser : Ajout de la condition PJ.
+- Compte : La déconnexion entraine la fermeture des panneaux de demande d'échange/invitation craft.
+- World/Personnage/Action/GameThread/Carte/Constants : Ajout du livre d'artisans (AncestraR_Game - Patch rev9 - Rune Artisans).
+- Constants : Correction de la fonction isMageJob.
+- Pathfinding/Carte/World/GameServer : Ajout du déplacement des Monstres/Percepteurs.
+- Gift/GameThread/SQLManager/World/Compte... : Ajout des cadeaux à la sélection du personnage (AncestraR_Game - Patch rev11 - Gift) [DeeZ].
+- BDD : AncestraR_Game - Patch rev10 - Bonbons [DeeZ].
+- Constants : Correction de la constante STATS_ADD_DOMA [DeeZ].
+- SpellEffect : Correction de applyEffect_149 [DeeZ].
+
+[19/07/2012]
+- Constants : Correction des enclumes pour les métiers : Sculteur Arc/Baton/Baguette et Forgeur d'Epée.
+
+[18/07/2012]
+- Fight : La mort du percepteur entraine la défaite de l'équipe.
+- Commands : Ajout de la commande SENDME <str> qui permet d'envoyer a votre joueurs le paquet <str>.
+- Personnage : Les comptes non abonnés ne peuvent plus utiliser leur monture.
+
+[17/07/2012]
+- SocketManager/Personnage/Compte/GameThread : Ajout du système d'abonnement :
+	Impossibilité de s'équiper de familiers.
+	Téléportation aux statue de classe (a la connection) si on ce trouve dans une zone abonné sans être abonné.
+	Ajout du messages et du cadenas lorsque l'on sort de la zone restreinte et que l'on est pas abonné.
+	Pas de JcJ (Joueur Contre Joueur).
+	Impossibilité d'agresser un percepteur.
+	Impossibilité d'agresser un joueurs.
+	Impossibilité de rejoindre une agression, un combat percepteur ou un JcJ.
+	Impossibilité de lancer un PvM hors zone restreinte.
+	Pas d'accès au mode marchand ni aux principaux hôtels de vente.
+
+[16/07/2012]
+- Fight : L'interdiction de spectateur expulse tous les spectateurs présents au combat.
+
+[14/07/2012]
+- Fight/Challenge/Formulas... : Les challenges sont désormais terminer [DeeZ].
+- Fight : Quand un spectateur rejoins un combat,et qu'il y a des challenges ils peut les voir [DeeZ].
+
+[13/07/2012]
+- Personnage : Lorsque qu'on se connecte et que notre énergie est à moins de 2000 on affiche un message [DeeZ].
+- Challenge/Fight/SocketManager... : Ajout partiellement des challenges [DeeZ].
+
+[11/07/2012]
+- Personnage/GameThread/SocketManager/Fight : Complétition de l'énergie manque la téléportation au cimetière le plus proche [DeeZ].
+- World/BDD : Début de la délimitation entre les zones a abonnement et sans abonnement (Patch : AncestraR_Game - patch rev7 - Abonnement).
+
+[10/07/2012]
+- Personnage : Quand on porte la panoplie 'Vampyre' on a l'aura.
+- Familier/Action/PetsEntry : Ajout de l'EPO pour les familiers (Patch : AncestraR_Game - Patch rev6 - EPO).
+
+[09/07/2012]
+- Fight : Ajout du coup de poing (Patch : AncestraR_Game - Patch rev5 - Punch).
+- Fight : Les étoiles de monstre sont désormais afficher dans le tableau [DeeZ]
+- Formulas/Fight : Ajout d'une formule de bonus pour les étoiles de monstre. 
+- Monstre : Correction de certain bug d'affichage de groupe.
+- Monstre/Formulas/Fight : Ajout du système d'étoiles [DeeZ].
+- Fight/SocketManager : Correction des messages lors de l'agression du percepteur [DeeZ].
+- Formulas : Ajout de la perte des points de vie insoignables (10% des PDV en moins en fonction des dommage recu).
+
+[08/07/2012]
+- Object/World/Pets/PetsEntry/GameThread : Fin des familiers (de type 2 et 3) (Nourrir/Boost Stats/Mort/Poudre d'eniripsa).
+- Commands : Ajout de la commande RES <id> pour lancer la resurrection d'un familiers.
+- SQLManager : Correction de la fonction persoExist.
+- World : Correction de la supression des personnage.
+- Personnage : Ajout de la cinématique de départ [DeeZ].
+- Personnage/Fight/Commands : Ajout des paquet Im pour les fonctions addHonor et remHonor [DeeZ].
+- World/Guild/GameThread : Ajout de la fonction 'Parler' des percepteurs [DeeZ].
+- GameThread : Quand on mange du pain ou boit de la bière l'animation est lancer [DeeZ].
+- GameThread/Personnage/SocketManager : Ajout de la taxe du mode marchand [DeeZ].
+
+[06/07/2012]
+- Action : Correction de la banque (elle ne vole plus 566kamas) (Patch : AncestraR_Game - Patch rev4) [DeeZ].
+Il est possible d'ouvrir la banque si on ne possède plus de kamas, mais qu'il en reste suffisamment dans la banque.
+- Fight : Correction de la fonction GetGE.
+- Percepteur/Fight : Ajout de la fonction clearDefenseFight() qui permet de vous sortir de la liste des défenseurs si le percepteur remporte le combat.
+
+[04/07/2012]
+- GameServer/Game_Config.txt : Simplification des différents timer (ainsi tout les timers disponible dans la config s'expriment en minute).
+
+[28/06/2012]
+- Fight : On remporte désormais la collecte (objet et kamas) du percepteur si on le gagne en combat [DeeZ].
+- Métier/Objet : Simplification du code pour la ForgeMagie.
+- IA : Correction de bug sur le percepteur (le mob ne passe pas son tour) (simplification du code).
+
+[27/06/2012]
+- Fight : Correction d'un faille sur les CaC [DeeZ].
+- GameThread : Ajout de l'action "Libèrer la monture" [DeeZ].
+- Metier/Constants : Ajout des protecteurs de ressources (Patch : AncestraR_Game - Patch rev3 - Defenders of resources) [DeeZ].
+- Object/World/Pets/PetsEntry/GameThread : Début des familiers (Patch : AncestraR_Game - Patch rev2 - Pets).
+- BDD : Ajout d'une colonne oubliée (Patch AncestraR_Game - Patch rev1).
+
+[21/06/2012]
+- Fight : L'échec critique sur un sort ne le rend plus inutilisable, pendant le nombre de tours entre deux lancers.
+- Commande : Ajouts de quelques infos a la commande mapinfo.
+- GameThread : Mise a jour des pod lors d'un achat HDV.
+- GameThread : Ajout du prix moyens aux HDV(s).
+
+[20/06/2012]
+- Commands : Ajout de la commande FullHDV <nbr>.
+- Carte/Percepteur/GameThread/Fight : 
+Le nombre de place de combat sur une carte est désormais connu, ce qui permet une meilleure gestion des combats percepteurs.
+La défense des percepteurs et désormais plus Offi-Like (temps que les défenseurs apparaissent).
+- Personnage/GameThread : Il n'est plus possible de rester en echange avec le percepteur plus de 2 minutes.
+- IA : Correction de certaines erreurs liées aux cellIDs en bordure de map (le mob ne passe pas son tour) (moveFarIfPossible, testCotes).
+
+[17/06/2012]
+- ComThread/ComServer : Le crash du Realm ne fait plus crash le Game (auto-reconnection).
+- Percepteur/Carte/Fight : Simplification de l'affichage des percepteurs en combat (panneau de guilde).
+
+[21/11/2011]
+Ancestra-R Game v0.6.0
+Ancestra-R realm v0.1
+Version instable /!\ Merci de signaler tous les bugs ici : https://sourceforge.net/projects/ancestrar/forums
