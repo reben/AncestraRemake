@@ -24,8 +24,8 @@ set /P pass=pass[%pass%]:
 echo.
 
 :DBTables
-set /P base_realm=base_realm [%base_realm%] 
-set /P base_game=base_game [%base_game%]
+set /P base_realm=Realm Databse [%base_realm%]:
+set /P base_game=Game Database [%base_game%]:
 
 :menu
 echo MySQL Config
