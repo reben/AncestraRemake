@@ -1,0 +1,11 @@
+- accounts : ancestra_realm :
+
+giftID = les id dans gift = giftId
+exemple : 1;2
+Sa veut dire que dans la table gift on prend les 2 giftId le 1 et le 2.
+
+- gift : ancestra_game :
+
+giftId = Se que j'ai dit la dernière fois.
+items = les items à mettre : itemId,quantity;itemId etc...
+title,description,pictureUrl 

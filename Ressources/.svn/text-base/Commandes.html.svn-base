@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>Ancestra : Liste des commandes</title>
+	</head>
+	<body>
+		<div align="center">
+			<h1>Ancestra</h1>
+			<h2>Liste de commandes</h2>
+			<font size = 4>
+				Ces commandes sont a effectué dans la console Admin, pour y acceder il suffit de taper "/console" dans le chat, avec un personnage Admin :<br/>
+				<br/>
+				<img src="console.jpg" width="80%"/>
+				<br/>
+				<br/>
+				Commandes:<br/><br />
+				<table border = 1>
+					<tr><td><b>GMLEVEL 1 :</b></td></tr>
+					<tr><td>INFOS</td><td>Affiche l'uptime, le nombre de joueur connectés, et le record de connexion</td></tr>
+					<tr><td>REFRESHMOBS</td><td>Efface puis respawn tous les groupes de monstre de la Map</td></tr>
+					<tr><td>MAPINFO</td><td>Affiche la liste des NPCS/Percepteurs présents sur la map (guid, cellID, ID) </td></tr>
+					<tr><td>WHO</td><td>Affiche la liste des joueurs en ligne, ainsi que quelques informations les concernant</td></tr>
+					<tr><td>SHOWFIGHTPOS</td><td>Affiche la liste des cases du placement en combat en fonction de la team</td></tr>
+					<tr><td>CREATEGUILD</td><td>Ouvre le panneau de création de guilde</td></tr>
+					<tr><td>TOOGLEAGGRO [Perso]</td><td>Permet au joueur de ne pas se faire agresser par les Mobs</td></tr>
+					<tr><td>ANNOUNCE [message]</td><td>Envoie un message à tout le serveur</td></tr>
+					<tr><td>DEMORPH [perso]</td><td>Redonne au personnage selectionné son apparence originale</td></tr>
+					<tr><td>GONAME ou JOIN [Perso]</td><td>Téléporte vers le perso selectioné</td></tr>
+					<tr><td>NAMEGO [Perso]</td><td>Téléporte le perso selectioné vers vous</td></tr>
+					<tr><td>NAMEANNOUNCE [message]</td><td>Envoie un message à tout le serveur, en spécifiant le nom de l'admin</td></tr>
+					<tr><td>TELEPORT [mapID] [CellID] [Perso]</td><td>Téléporte vers la case demandé sur la map demandé</td></tr>
+					<tr><td>GOMAP [X] [Y] [CellID] [continent]</td><td>Téléporte vers la map selectioné par ses coordonées, le continent est par défaut 0 (Amakna) (Incarnam => 3)</td></tr>
+					<tr><td>DOACTION [Perso] [Type] [Args] [Conditions]</td><td>Envoi une action au personnage</td></tr>
+					<tr><td><b/>GMLEVEL 2 :</b></td></tr>
+					<tr><td>MUTE [Perso] [time]</td><td>Mute le personnage pendant la durée spécifiée (0 pour infinie)</td></tr>
+					<tr><td>UNMUTE [Perso]</td><td>Demute le joueur s'il l'était</td></tr>
+					<tr><td>KICK [Perso]</td><td>Kick le personnnage selectioné</td></tr>
+					<tr><td>SPELLPOINT [spellpoint] [Perso]</td><td>Ajoute [spellpoints] points de sorts au joueur selectionné</td></tr>
+					<tr><td>LEARNSPELL [SpellID] [Perso]</td><td>Apprend le sort SpellID au joueur</td></tr>
+					<tr><td>SETALIGN [AlignID] [Perso]</td><td>Change l'alignemetn du joueur</td></tr>
+					<tr><td>SETREPONSES [IDQuestion] [IDReponse]</td><td>Ajoute une réponse a la question</td></tr>
+					<tr><td>SHOWREPONSES [IDQuestion]</td><td>Montre les réponses possibles d'une question</td></tr>
+					<tr><td>HONOR [HonorValue] [Perso]</td><td>Change la valeur de l'honneur d'un personnage</td></tr>
+					<tr><td>ADDJOBXP [idMetier] [xpGagné] [Perso]</td><td>Donne de l'xp au métier du joueur sélectioné</td></tr>
+					<tr><td>LEARNJOB [jobID] [Perso]</td><td>Le joueur selectionné apprend le metier</td></tr>
+					<tr><td>CAPITAL [capital] [Perso]</td><td>Ajoute [capital] points de capital au joueur selectionné</td></tr>
+					<tr><td>SIZE [taille] [Perso]</td><td>Modifie la taille du personnage selectioné (en pourcentages)</td></tr>
+					<tr><td>MORPH <a href="gfxid.html">[gfxID]</a> [Perso]</td><td>Transforme le personnage selectionné grâce au gfxID</td></tr>
+					<tr><td>MOVENPC [npcGUID]</td><td>Deplace le npc selectioné sur le joueur (Le guid est le chiffre obtenu au début de la ligne avec MAPINFO)</td></tr>
+					<tr><td>ITEMSET [panopID] [MAX?]</td><td>Ajoute la panoplie demandé,si MAX est spécifié, les objets ont des jets Parfaits</td></tr>
+					<tr><td>LEVEL [niveau] [Perso]</td><td>Fixe le niveau du joueur selectionné à [niveau]</td></tr>
+					<tr><td>PDVPER [pdvper] [Perso]</td><td>Fixe le pourcentage de pdv du joueur selectionné à [pdvper]</td></tr>
+					<tr><td>KAMAS [kamas] [Perso]</td><td>Ajoute [kamas] Kamas au joueur selectionné, la valeur [kamas] peut être négative (Retrait de Kamas)</td></tr>
+					<tr><td>ITEM [templateID] [quantité] [MAX?]</td><td>Ajoute [quantité] objets avec un jet identique au personnage selectionné,si MAX est spécifié, l'item a des jets Parfaits</td></tr>
+					<tr><td>SPAWN [groupData]</td><td>Fait apparaître un groupe de monstre sur la carte Format du groupData : id,lvlMin,lvlMax;id,lvlMin,lvlMax...</td></tr>
+					<tr><td>TITLE [Perso] [TitleID]</td><td>Change le titre d'un personnage</td></tr>
+					<tr><td><b>GMLEVEL 3 :</b></td></tr>
+					<tr><td>EXIT</td><td>Sauvegarde, puis quitte le serveur</td></tr>
+					<tr><td>SAVE</td><td>Effectue une sauvegarde du serveur</td></tr>
+					<tr><td>DELFIGHTPOS [CellID]</td><td>Supprime une cellid de placement en combat</td></tr>
+					<tr><td>BAN [Perso]</td><td>Bannis un personnage</td></tr>
+					<tr><td>UNBAN [Perso]</td><td>Dé-bannis un personnage</td></tr>
+					<tr><td>ADDFIGHTPOS [teamID] [CellID]</td><td>Ajout une cellID de placement en combat en fonction de la team choisie</td></tr>
+					<tr><td>SETMAXGROUP [max]</td><td>Change le nombre de groupe max sur une carte</td></tr>
+					<tr><td>ADDREPONSEACTION [ReponseID] [ActionID]</td><td>Ajoute une action a une réponse</td></tr>
+					<tr><td>SETINITQUESTION [npcID] [QuestionID]</td><td>Ajoute une question a un NPC</td></tr>
+					<tr><td>ADDENDFIGHTACTION [Type] [ActionID]</td><td>Ajoute une action de fin de combat sur la carte</td></tr>
+					<tr><td>SPAWNFIX [groupData]</td><td>Ajout un spwan de monstre fix Format du groupData : id,lvlMin,lvlMax;id,lvlMin,lvlMax...</td></tr>
+					<tr><td>ADDNPC [npcID]</td><td>Ajoute le PNJ sur la case actuelle du joueur avec l'orientation du joueur (Attention aux orientations)</td></tr>
+					<tr><td>DELNPC [npcGUID]</td><td>Supprime le npc selectioné (Le guid est le chiffre obtenu au début de la ligne avec MAPINFO)</td></tr>
+					<tr><td>ADDTRIGGER [mapID] [cellID]</td><td>Ajoute un plot de téléportation sur la case actuelle vers la case demandé de la map demandé</td></tr>
+					<tr><td>DELTRIGGER [cellID]</td><td>Retire le trigger de la case selectionée</td></tr>
+					<tr><td>ADDNPCITEM [npcGUID] [templateID]</td><td>Ajoute l'objet à la liste des objets en vente sur le NCP demandé</td></tr>
+					<tr><td>DELNPCITEM [npcGUID] [templateID]</td><td>Supprime l'objet de la liste des objets en vente sur le NCP demandé</td></tr>
+					<tr><td>ADDMOUNTPARK [size] [owner] [price]</td><td>Définie les propriétés de l'enclos de la map actuelle, Owner : -1 pour publique, et price 0 pour publique</td></tr>
+					<tr><td>SHUTDOWN [OnOff] [Time]</td><td>Allume ou éteint un redémarrage programmé</td></tr>
+					<tr><td>GMLEVEL 4 :</td></tr>
+					<tr><td>SETADMIN [gmLvl] [Perso]</td><td>Modifie le gmLevel du joueur selectioné (Rang4)</td></tr>
+					<tr><td>LOCK [lockValue]</td><td>Bloque l'accès au serveur (0 = inaccessible, 2 = sauvegarde et 1 = accessible)</td></tr>
+					<tr><td>BLOCK [GmAccess] [kickPlayer]</td><td>Bloque l'accès au serveur seulement au Gmlevel >= GmAccess (KickPlayer > 0 Entraine l'expulsion des joueurs)</td></tr>
+					<tr><td>BANIP [Perso]</td><td>Bannis une IP du serveur</td></tr>
+					<tr><td>FULLHDV [nbr]</td><td>Remplit les hdvs d'items</td></tr>
+					<tr><td>RES [ItemID]</td><td>Permet la réssurection d'un familier (en fonction de son itemID)</td></tr>
+				</table>
+				<br/>
+				<b><u>ATTENTION:</u></b>Par défaut, le personnage effectuant la commande est selectionné.
+			</font>
+		</div>
+	</body>
+</html>

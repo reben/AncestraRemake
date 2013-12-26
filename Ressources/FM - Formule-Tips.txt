@@ -1,0 +1,47 @@
+Stats négatives :
+98 Chance -
+9a Agi -
+9b Intel -
+9d Force -
+74 Porter -
+99 Vita -
+
+Stats positives :
+7b Chance +
+77 Agi +
+7e Intel +
+76 Force +
+75 Porter +
+7d Vita +
+6f PA +
+80 PM +
+73 Cri +
+b2 Soins +
+70 Dommage +
+8a Dommage% +
+dc Dommage renvoyé +
+75 PO +
+b6 Invoc +
+9e Pod +
+e1 Piège +
+e2 Piège% +
+ae Ini +
+b0 Propec +
+f0 Ré terre +
+f1 Ré eau +
+f2 Ré air +
+f3 Ré feu +
+f4 Ré neutre +
+d2 Ré terre% +
+d3 Ré eau% +
+d4 Ré air%
+d5 Ré feu% +
+d6 Ré neutre% +
+
+Non "FM-able" :
+7f PM -
+65 PA perdu cible
+
+
+Vous trouverez tous ce qui est nécessaire a faire une formule dans Metier.java.
+La chance de réussite est calculée dans Formulas.java.
