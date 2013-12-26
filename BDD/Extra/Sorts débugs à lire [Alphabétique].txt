@@ -1,0 +1,75 @@
+|---------------------------------------------------------------|
+|               Sorts débug dans ce fichier SQL :               |
+|------------------|-------------------------------|------------|
+|      Classes     |             Sorts             | % Corrigés |
+|------------------|-------------------------------|------------|
+| Abrakne Sombre   | Motivation Sylvestre          | 100%       |
+| Araknotron       | Complicité                    | 100%       |
+| Blop Multi' Royal| Blopacification               | 100%       |
+| Bouftou Royal    | Abolissement                  | 100%       |
+| Buveur           | Daudoh                        | 100%       |
+| Bwork Mage       | Éclair en série               | 100%       |
+| Champbis         | Mikota                        | 100%       |
+| Craqueleur Invoc'| Ecrasement                    | 100%       |
+| Crocabulia       | Cris de Crocabulia            | 100%       |
+| Crocabulia       | Souffle de Crocabulia         | 100%       |
+| Dopeul Ecaflip   | Roulette du Dopeul            |  85%       |
+| Dopeul Osamodas  | Crapaud du Dopeul             | 100%       |
+| Dopeul Osamodas  | Déplacement Félin du Dopeul   | 100%       |
+| Dopeul Osamodas  | Piqûre Motivante du Dopeul    | 100%       |
+| Dopeul Sadida    | Puissance Sylvestre du Dopeul | 100%       |
+| Dragoeuf Volant  | Envol                         | 100%       |
+| Dragoeuf Volant  | Fronde                        | 100%       |
+| Dragon Cochon    | Etourderie Mortelle           | 100%       |
+| Dragonnet Rouge  | Dragofeu                      | 100%       |
+| Dragoss          | Météorite Aveuglante          | 100%       |
+| Dragoss          | Météorite Etourdissante       | 100%       |
+| Dragoss          | Souffle du Dragoss            | 100%       |
+| Dragueuse        | Charme                        | 100%       |
+| Dragueuse        | Coup de Foudre                | 100%       |
+| Dragueuse        | Drague                        | 100%       |
+| Ecaflip          | Félintion                     | 100%       |
+| Ecaflip          | Roulette                      |  85%       |
+| Ecafilp          | Tout ou rien                  | 100%       |
+| Eniripsa         | Mot d'Altruisme               | 100%       |
+| Eniripsa         | Mot de Jouvence               | 100%       |
+| Eniripsa         | Mot Drainant                  | 100%       |
+| Élémentaire      | Foudroiement                  | 100%       |
+| Élémentaire      | Libération                    | 100%       |
+| Enutrof          | Corruption                    | 100%       |
+| Féca             | Armure Aqueuse                | 100%       |
+| Féca             | Armure Incandescente          | 100%       |
+| Féca             | Armure Terrestre              | 100%       |
+| Féca             | Armure Venteuse               | 100%       |
+| Iop              | Guide de Bravoure             | 100%       |
+| Kanigrou         | Saut Majestueux               | 100%       |
+| Kapotie le Buveur| Parchotage                    | 100%       |
+| La Gonflable     | Soin Poupesque                | 100%       |
+| Maître Corbac    | Lien Volatile                 | 100%       |
+| Mulou            | Cri du Mulou                  | 100%       |
+| Osamodas         | Crapeau                       | 100%       |
+| Osamodas         | Crocs du mulou                | 100%       |
+| Osamodas         | Déplacement félin             | 100%       |
+| Osamodas         | Piqûre motivante              | 100%       |
+| Osamodas         | Résistance naturel            | 100%       |
+| Osamodas         | Soin Animal                   | 100%       |
+| Percepteur       | Compulsion de masse           | 100%       |
+| Percepteur       | Cyclone                       | 100%       |
+| Percepteur       | Flamme                        | 100%       |
+| Percepteur       | Rocher                        | 100%       |
+| Pichons          | Vague Sournoise               | 100%       |
+| Rat Bajoie       | Rapidité                      | 100%       |
+| Rat Batteur      | Raffut                        | 100%       |
+| Rat Noir         | Kackitu                       | 100%       |
+| Renarbo          | Ramage                        | 100%       |
+| Sacrieur         | Transfère de vie              | 100%       |
+| Sacrieur         | Sacrifice [Niv.6]             | 100%       |
+| Sadida           | Puissance Sylvestre           | 100%       |
+| Sadida           | Ronce Apaisante               | 100%       |
+| Tofu Invoc'      | Béco du tofu                  |  75%       |
+| Tronkoblop       | Blopsoin                      | 100%       |
+| Wa Wabbit        | Abrutissement                 | 100%       |
+| Wobot            | Wassue rotative               | 100%       |
+|------------------|-------------------------------|------------|
+|		Nombre de sorts débugs/corrigés : 67            |
+|---------------------------------------------------------------|

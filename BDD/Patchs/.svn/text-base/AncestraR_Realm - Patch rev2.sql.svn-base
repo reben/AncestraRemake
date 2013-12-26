@@ -1,0 +1,1 @@
+ALTER TABLE `accounts` CHANGE `subscription` `subscription` INT( 11 ) NOT NULL DEFAULT '0';

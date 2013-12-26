@@ -1,0 +1,23 @@
+Pour installer la BDD :
+
+Créer deux bases de données : 
+ancestra_game
+ancestra_realm
+
+Exécuter les fichiers :
+AncestraR_Game.sql et AncestraR_Realm.sql dans leurs base de données respective.
+/!\ Attention aux erreurs d'encodages.
+
+
+Mettre a jour la BDD :
+
+*Comment cela fonctionne ?
+AncestraR_Realm - Patch rev1
+AncestraR_Game - Patch rev2
+AncestraR_YYYY - Patch revXX - ZZZZ.sql
+YYYY correspond a la base de données ou doit être appliqué le patch.
+XX correspond au numéro du patch.
+ZZZZ correspond a une information sur le contenu du patch.
+
+/!\ Attention, les révisions des patchs ne correspondent pas aux révisions de la version du core.
+/!\ L'exécution dossier extra n'est pas indispensable. 

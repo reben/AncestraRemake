@@ -1,0 +1,1 @@
+DELETE FROM `ancestra_game`.`npc_reponses_actions` WHERE `npc_reponses_actions`.`ID` = 259 AND `npc_reponses_actions`.`type` = 4 AND `npc_reponses_actions`.`args` = '-566' LIMIT 1;
