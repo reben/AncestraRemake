@@ -461,9 +461,9 @@ public class Ancestra {
 	{
 		StringBuilder mess = new StringBuilder();
 		mess.append("Ancestra-R Game v"+Constants.SERVER_VERSION);
-		mess.append("\nPar DeathDown & DeeZ pour Dofus "+Constants.CLIENT_VERSION);
+		mess.append("\nPar Reben merci DeathDown et Deez "+Constants.CLIENT_VERSION);
 		mess.append("\nThanks Diabu.");
-		mess.append("\nhttp://sourceforge.net/projects/ancestrar/\n\n");
+		mess.append("\nhttps://github.com/reben/AncestraRemake\n\n");
 		return mess.toString();
 	}
 	
