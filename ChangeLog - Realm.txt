@@ -1,0 +1,27 @@
+[26/12/2013]
+- Correction de l'affichage du nombre de personnage lors de la liste des serveurs.
+
+- Reprise de ancestra remaque par Reben officielle
+
+[14/08/2012]
+- SQLManager : Reconnection automatique du Realm a la BDD en cas de perte de connexion.
+
+[22/07/2012]
+- [...] : Correction des bugs de connexion suite aux cadeaux [DeeZ].
+
+[20/07/2012]
+- Account : Ajout des cadeaux à la sélection du personnage [DeeZ].
+
+[17/07/2012].
+/Realm v0.3\
+- SocketManager : Correction des logs.
+- SQLManager/Account/Ancestra/RealmThread/Realm_Config : Ajout de la première partie du système d'abonnement.
+
+[17/06/2012]
+/Realm v0.2\
+- [...] : Correction des logs.
+- RealmThread : La fermeture du serveur entraine le kick des clients.
+- [...] : Supression de codes inutiles Realm.
+
+[21/11/2011]
+- [...] : Ajout du multi serveur.
