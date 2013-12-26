@@ -1,1 +1,0 @@
-ALTER TABLE `accounts` ADD `giftID` VARCHAR( 100 ) NOT NULL COMMENT 'giftID1;giftID2 ...';

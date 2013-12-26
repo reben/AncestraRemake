@@ -1,1 +1,0 @@
-UPDATE `ancestrar_game`.`monsters` SET `AI_Type` = '7' WHERE `monsters`.`id` =285;
