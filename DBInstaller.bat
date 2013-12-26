@@ -8,12 +8,15 @@ set port=3306
 set user=root
 set pass=PasswordHere!
 
+rem Table Configuration
+set base_realm=Ancestra_Realm
+set base_game=Ancestra_Game
 rem misc configurations
 color 0C
 
 goto menu
 
-:instalador
+:setup
 set /P host=host [%host%]: 
 set /P port=port [%port%]: 
 set /P user=user [%user%]: 
@@ -21,8 +24,8 @@ set /P pass=pass[%pass%]:
 echo.
 
 :DBTables
-set /P base_realm=Ancestra_Realm[%base_realm%] 
-set /P base_game=Ancestra_Game[%base_game%]
+set /P base_realm=base_realm [%base_realm%] 
+set /P base_game=base_game [%base_game%]
 
 :menu
 echo MySQL Config
@@ -42,6 +45,18 @@ echo 3 - Install updates from Realm!
 echo 4 - Install updates from Game!
 echo 5 - Change the DB autentification settings
 echo 6 - Change the DB Table settings
+echo.
+set /P menu=Select a number:
+if "%menu%"=="1" (goto )
+if "%menu%"=="2" (goto )
+if "%menu%"=="3" (goto )
+if "%menu%"=="4" (goto )
+if "%menu%"=="5" (goto )
+if "%menu%"=="6" (goto DBTables)
+if "%menu%"=="%menu%" echo. & echo Wrong Number! & pause & goto menu 
+
+:base_realm
+
 
 
 pause>nul
